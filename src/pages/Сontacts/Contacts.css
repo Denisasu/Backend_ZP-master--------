@@ -1,0 +1,14 @@
+.container-custom {
+    background-color: #cfcdcd; /* Серый цвет фона */
+    padding: 30px; /* Отступ вокруг формы */
+    border-radius: 50px; /* Закругление углов формы */
+  }
+  .title-wrapper {
+    text-align: center; /* Выравнивание по центру */
+    margin-top: 20px; /* Отступ сверху */
+    font-size: 0.9rem; /* Настройте размер текста по вашему усмотрению */
+      
+      
+  }
+  
+  

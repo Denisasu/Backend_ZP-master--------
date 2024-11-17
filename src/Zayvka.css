@@ -1,0 +1,31 @@
+.custom-button {
+    background-color: #38d39f !important; /* Зелёный цвет */
+    border-color: #38d39f !important;
+    border-radius: 20px !important;
+    color: rgb(0, 0, 0) !important; /* Белый текст */
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+  }
+  
+  .custom-button:hover {
+    background-color: #38d39f !important; /* Темно-зелёный цвет при наведении */
+    border-color: #38d39f !important;
+  }
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-container {
+    background-color: #cfcdcd; /* Серый цвет фона */
+    padding: 50px; /* Отступ вокруг формы */
+    border-radius: 50px; /* Закругление углов формы */
+    margin: 40px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+  }
+
+  
+
+  

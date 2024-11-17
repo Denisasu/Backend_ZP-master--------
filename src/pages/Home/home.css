@@ -1,0 +1,286 @@
+.secone {
+    flex-grow: 1;
+    width: 100%; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding-top: 15px;
+    
+    
+    display: flex;
+    text-align: left;
+    align-items: center;
+    
+}
+
+.secone-one {
+    flex-grow: 1;
+}
+
+.btn-title {
+    background-color: #FF6B6B;
+    color: #000000;
+    border-radius: 32.5px;
+    font-size: 100px;
+}
+
+.proj3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.proj3-itm {
+    /* Прямоугольник 5 */
+    width: 430px;
+    height: 430px;
+    background-color: #32be8f;
+    color: #fff;
+
+    margin-top: 10px; /* Reduce the top margin */
+    margin-bottom: 10px; /* Reduce the bottom margin */
+    
+    text-align: center;
+    font-size: 23px;
+    border-radius: 60px;
+    
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.proj3-img {
+    margin-left: 60px;
+}
+
+.proj3-img img {
+    height: 87px;
+    width: 87px;
+}
+
+.avt1{
+    display: flex;
+}
+
+.avt1-text {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.avt2{
+    display: flex;
+}
+
+.avt2-text {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.avt3{
+    display: flex;
+}
+
+.avt3-text {
+    text-align: right;
+    flex-grow: 1;
+
+}
+
+.avt4{
+    display: flex;
+}
+
+.avt4-text {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.aktall {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.akt1 {
+    width: 600px;
+    background-color: #74c780;
+    border-radius: 62px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    color: #fff;
+}
+
+.akt1 h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.akt1 p {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+.akt1 img {
+    margin-top: 10px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.akt2 {
+    width: 375px;
+    background-color: #74c780;
+    border-radius: 62px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    color: #fff;
+}
+
+.akt2 h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.akt2 p {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+.akt2 img {
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.akt3 {
+    width: 375px;
+    background-color: #74c780;
+    border-radius: 62px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    color: #fff;
+}
+
+.akt3 h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.akt3 p {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+.akt3 img {
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.akt4 {
+    width: 600px;
+    background-color: #74c780;
+    border-radius: 62px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    color: #fff;
+}
+
+.akt4 h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.akt4 p {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+.akt4 img {
+    margin-top: 10px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.akt2, .akt2, .akt3, .akt4 {
+    margin: 10px;
+}
+
+
+/*Инструкция*/
+
+.inform {
+    display: flex; /* Make the container a flexbox */
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Center elements horizontally */
+    padding: 30px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 30px;
+}
+
+.infblock {
+    width: 80%; /* Adjust width as needed */
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    display: flex; /* Make the content a flexbox */
+    flex-direction: row; /* Arrange elements horizontally */
+    justify-content: space-between; /* Distribute elements evenly */
+    align-items: center; /* Center elements vertically */
+}
+
+
+.inf1-one, .inf2-one, .inf3-one, .inf4-one {
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: #74c780; /* Green background color */
+    border-radius: 50%; /* Circular shape */
+    display: flex; /* Center content within the circle */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text */
+    color: white; /* White text */
+}
+
+.inf1, .inf2, .inf3, .inf4 {
+    display: flex; /* Make each step a flexbox */
+    flex-direction: column; /* Arrange content vertically */
+    align-items: flex-start; /* Align content to the left */
+    width: 25%; /* Set equal width for each step */
+    margin: 5px;
+}
+
+.inf1 p, .inf2 p, .inf3 p, .inf4 p {
+    margin-top: 10px; /* Add margin above the text */
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.5; /* Add some line spacing */
+    color: #666; /* Gray text color */
+}
